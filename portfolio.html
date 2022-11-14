@@ -5,30 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    <header>
+<body class="body">
+    <!-- encabezado principal -->
+    <header class="header">
         <nav>
             <ul>
-                <li><a href="WebStudio">WebStudio</a></li>
-                <li><a href="Estudio">Estudio</a></li>
-                <li><a href="Portafolio">Portafolio</a></li>
-                <li><a href="Contactos">Contactos</a></li>
+                <li><a class="webstudio"  href="index.html">WebStudio</a></li>
+                <li><a class="link" href="Estudio">Estudio</a></li>
+                <li><a class="link" href="portfolio.html">Portafolio</a></li>
+                <li><a class="link" href="Contactos">Contactos</a></li>
             </ul>
+            <p>
+                <a class="contact" href="info@devstudio.com">info@devstudio.com</a>
+                <a class="contact" href="+525555296000">+52 55 5529 6000</a>
+            </p>
         </nav>
-        <p>
-            <a href="info@devstudio.com">info@devstudio.com</a>
-            <a href="+525555296000">+52 55 5529 6000</a>
-        </p>
     </header>
+
+    <div class="clearfix"></div>
+
     <main>
         <nav>
             <ul class="buttons">
                 <li><button type="button" class="button">todo</button>
-                <li><button type="button" class="buton">Sitios-web</button></li>
-                <li><button type="button" class="buton">Aplicaciones</button></li>
-                <li><button type="button" class="buton">Diseño</button></li>
-                <li><button type="button" class="buton">Marketing</button></li>
+                <li><button type="button" class="button">Sitios-web</button></li>
+                <li><button type="button" class="button">Aplicaciones</button></li>
+                <li><button type="button" class="button">Diseño</button></li>
+                <li><button type="button" class="button">Marketing</button></li>
             </ul>
         </nav>
         <ul>
@@ -98,12 +103,11 @@
         </ul>
     </main>
     <footer>
-        <a href="WebStudio">WebStudio</a>
+        <a class="webstudio" href="WebStudio">WebStudio</a>
         <address>
             <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-            <p><a href="info@example.com">info@example.com</a></p>
-            <p><a href="+525555296000">+52 55 5529 6000</a></p>
-            <p>ENCUENTRENOS EN</p>
+            <p><a class="contact" href="info@example.com">info@example.com</a></p>
+            <p><a class="contact" href="+525555296000">+52 55 5529 6000</a></p>
         </address>
     </footer>
 </body>

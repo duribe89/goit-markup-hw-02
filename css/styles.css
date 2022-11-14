@@ -1,3 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* content HTML Portafolio */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background:#FFFFFF;
+}
+
+
+/* Encabezado Contactos */
+.contact{
+color: #757575;
+}
+
+.contact:hover {
+    color: #2196F3;
+}
+
+/* Link */
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: #2196F3;
+}
+
+/*Button*/
+.button {
+    color:rgb(2, 2, 2);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+}
+
+.button:hover {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+/* Boton WebStudio */
+
+.webstudio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    letter-spacing: 3;
+}
+
+
+
+/* Diseñor Index */
+.main-title {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    background: #2f303a;
+}
+
+.main-button {
+    color: #ffffff;
+    background: #2196F3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    cursor: pointer;
+}
+
+
+
+/* Lista de vertical a horizontal */
+
+/* .header ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.header_contac{
+    float: right;
+    margin: 10px;
+}
+
+.clearfix{
+    clear:both;
+} */
 
 
