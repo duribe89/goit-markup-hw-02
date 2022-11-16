@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+/* Variables */
+
+:root {
+    --main-color: #2196f3;
+    --second-color: #212121;
+    --third-color: #757575;
+}
+
+
 /* content HTML Portafolio */
 
 body{
@@ -12,11 +21,11 @@ body{
 
 /* Encabezado Contactos */
 .contact{
-color: #757575;
+    color: var(--third-color);
 }
 
 .contact:hover {
-    color: #2196F3;
+    color: var(--main-color);
 }
 
 /* Link */
@@ -25,7 +34,7 @@ color: #757575;
 }
 
 .link:hover {
-    color: #2196F3;
+    color: var(--main-color);
 }
 
 /*Button*/
@@ -39,7 +48,7 @@ color: #757575;
 
 .button:hover {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-color);
 }
 
 /* Boton WebStudio */
@@ -50,7 +59,7 @@ color: #757575;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
+    color: var(--main-color);
     letter-spacing: 3;
 }
 
@@ -68,7 +77,7 @@ color: #757575;
 
 .main-button {
     color: #ffffff;
-    background: #2196F3;
+    background: var(--main-color);
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
