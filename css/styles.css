@@ -6,7 +6,8 @@
 :root {
     --main-color: #2196f3;
     --second-color: #212121;
-    --third-color: #757575;
+    --third-color:  #757575; 
+    --four-color: rgba(255, 255, 255, 0.6);;
 }
 
 
@@ -84,7 +85,13 @@ body{
     cursor: pointer;
 }
 
+footer{
+    background-color: #2F303A;
+}
 
+.address{
+    color: #FFFFFF; 
+}
 
 /* Lista de vertical a horizontal */
 
