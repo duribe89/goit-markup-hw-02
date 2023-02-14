@@ -94,6 +94,10 @@ footer{
     color: #FFFFFF; 
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* Lista de vertical a horizontal */
 
 /* .header ul li {
