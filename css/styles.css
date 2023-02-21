@@ -63,6 +63,7 @@ body{
     line-height: 31px;
     color: var(--main-color);
     letter-spacing: 3;
+    text-decoration: none;
 }
 
 
